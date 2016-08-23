@@ -1,0 +1,2872 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass uthmthesis-bm
+\begin_preamble
+
+\AtBeginDocument{
+\renewcommand{\chaptername}  {BAB}
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout 1a: Title
+
+\family roman
+\series medium
+\size large
+Menulis Tesis UTHM Menggunakan \SpecialChar LyX
+
+\end_layout
+
+\begin_layout 2: Author
+Mohd Norasri bin Ismail 
+\end_layout
+
+\begin_layout 3: Degree
+Sarjana Muda Sains Komputer (Pengkomputeran Multimedia) Dengan Kepujian
+\end_layout
+
+\begin_layout 4: Faculty
+Fakulti Sains Komputer dan Teknologi Maklumat
+\end_layout
+
+\begin_layout 5: Thesis Date
+Jun 2016
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Pilihan anugerah: 
+\end_layout
+
+\begin_layout Plain Layout
+
+% 1.
+ Laporan Projek Sarjana Muda  
+\end_layout
+
+\begin_layout Plain Layout
+
+% 2.
+ Laporan Projek Sarjana (Kerja Kursus)  
+\end_layout
+
+\begin_layout Plain Layout
+
+% 3.
+ Tesis Sarjana (Penyelidikan)  
+\end_layout
+
+\begin_layout Plain Layout
+
+% 4.
+ Tesis Doktor Falsafah  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 6: Award
+1 
+\end_layout
+
+\begin_layout 7a: 1st Supervisor
+Penyelia 1
+\end_layout
+
+\begin_layout 7b: 2nd Supervisor
+Penyelia 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+coverpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+superpage
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+certification
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+declaration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 14: Dedication
+Your dedication...
+\end_layout
+
+\begin_layout 15: Acknowledgement
+I would like to express my heartiest gratefulness to Allah for blessings,
+ which has made it possible to complete this thesis successfully.
+ I would also like to thank the developers of the uthmthesis LATEX project
+ for making the thesis writing process a lot easier for me.
+ Thanks to them, I could focus on the content of the thesis, and not waste
+ time with formatting issues.
+ Those guys are awesome
+\end_layout
+
+\begin_layout 16: Abstrak
+Abstract in Malay.
+ Please check whatever relevant terms with DBP.
+ Follow this URL http://prpm.dbp.gov.my/ (Latar belakang/penyataan masalah/matlamat
+/objektif/metodologi/keputusan..)
+\end_layout
+
+\begin_layout 17: Abstract
+This thesis-like documentation is created to demonstrate the use of LYX
+ to write UTM-style thesis.
+ Take note: By default the spacing is one-half.
+ But is the abstract is more than a page long, change to single spacing.
+ (Background/problem statement/aim/objectives/methodology/results...)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tableofcontents
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+listoftables
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+listoffigures
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%List of abbreviation 
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+listofabbre
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%List of symbols 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+listofsymbols
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{$
+\backslash
+gamma$}{gamma}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{ADTE}{Adaptation Decision-Taking Engine}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{UMA}{Universal Multimedia Access}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{UME}{Universal Multimedia Experience}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{QoS}{Quality of Service}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{QoE}{Quality of Experience}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{XML}{Extensible Markup Language}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{MPEG}{Motion Picture Expert Group}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{UCD}{Universal Constraints Description}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{UED}{Usage Environment Description}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addsymbol{AQoS}{Adaptation QoS}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%Uncomment if have appendices
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+listofappendices
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Pengenalan
+\end_layout
+
+\begin_layout Section
+Latar Belakang
+\end_layout
+
+\begin_layout Standard
+Widespread of mobile technologies to almost everyone is one of the major
+ important developments of the twenty first century...
+\end_layout
+
+\begin_layout Section
+Penyataan Masalah
+\end_layout
+
+\begin_layout Standard
+Limited battery life in mobile devices is an important issue especially
+ when viewing online multimedia contents 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kennedy2010"
+
+\end_inset
+
+.
+ Almost all mobile devices’ battery need to recharge after not more than
+ 12 hours of usage.
+ Users may find it frustrating if the battery is emptied while browsing
+ and certain in-progress data would also be loss (survey).
+ Even though a lot of improvements have been made in the past 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bohrer2002,Snowdon2009,Roy2011"
+
+\end_inset
+
+, the is awareness is still insufficient.
+ Therefore, to efficiently support multimedia applications in these limited
+ battery resource mobile devices, it has become one of the important challenges
+ in mobile computing.
+ Furthermore, the need for mobility requires computing systems to be as
+ small and light as possible.
+ Since batteries represent a significant portion of the size and weight
+ of mobile devices, one cannot increase battery size without also increasing
+ these undesirable properties.
+ Moreover, the development pace of battery technology is not at par with
+ the progress of mobile multimedia hardware and applications.
+ Therefore, the gap between battery capacity and mobile multimedia content
+ consumption is widen...
+\end_layout
+
+\begin_layout Section
+Objektif
+\end_layout
+
+\begin_layout Standard
+The objectives of this research are as follows: 
+\end_layout
+
+\begin_layout Enumerate
+To design...
+\end_layout
+
+\begin_layout Enumerate
+To implement...
+\end_layout
+
+\begin_layout Enumerate
+To analyze...
+\end_layout
+
+\begin_layout Section
+Skop
+\end_layout
+
+\begin_layout Standard
+This project concentrates on ...
+\end_layout
+
+\begin_layout Section
+Organisasi Laporan
+\end_layout
+
+\begin_layout Standard
+This chapter presents the background, problem statement, objectives, and
+ the scope of this thesis.
+ The remainder of this thesis is organized as follows:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Chapter 2: Literature Review
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The overview of existing content adaptation systems...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Chapter 3: Research Method
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This chapter presents the ...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Chapter 4: Analysis and Design
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This chapter presents...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Chapter 5: Implementation and Testing
+\series default
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This chapter presents the...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Chapter 6: Conclusion and Future Work
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The conclusion of the thesis is discussed in this chapter.
+ We also outlines some related topics that are interesting for future research.
+\end_layout
+
+\end_deeper
+\begin_layout Chapter
+Literature Review
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The revolution of Internet over the last decade has resulted tremendous
+ growth in the amount of online multimedia content...
+\end_layout
+
+\begin_layout Section
+Video Adaptation Engines in Universal Multimedia Experience (UME)
+\end_layout
+
+\begin_layout Standard
+Given the number of media content format types and large number of devices
+ accessing to the multimedia content through various network infrastructure,
+ it is obvious that certain method or mechanism is required to handle this
+ incompatibility.
+ This mechanism is referred to as content adaptation.
+\end_layout
+
+\begin_layout Standard
+Content adaptation is one of the effective, attractive and key solution
+ to the ensure UME.
+ There are many content adaptation projects introduced continuously.
+ However, the features and characteristics of the involving parties (device
+ variety, end device limited capability, users’ high mobility, and users’
+ quality of experience) introduced to new challenges in delivering information
+ and experience in these environments.
+ Content adaptation process is normally applied to the intended content
+ to satisfy user device capabilities and limitations as well as the user
+ preferences.
+ Also, demand for efficient content adaptation architecture is increased
+ in line with the rising development of these specification (e.g., diversity
+ device, heterogeneous network, user preferences, rich content).
+ To meet these requirements, the design of content adaptation architecture
+ is challenging due to several issues such as meeting computational and
+ device constraints, supporting scalability, enhancing adapted content quality
+ and improving user experience.
+\end_layout
+
+\begin_layout Standard
+There are two aspects of content adaptation problem.
+ First, the appropriate information to be delivered must be identified before
+ any adaptation process is commenced.
+ This will extract the minimal information amount but still manage to maintain
+ the semantic equivalence with the original information.
+ Second, when the suitable information has been identified, appropriate
+ adaptation technique is decided and executed based on user device capabilities
+ as well as user preferences.
+ For instance, possible content adaptation may include transcoding, quality
+ reduction, redundant information removal, summarization and multimodal
+ conversion to list few.
+\end_layout
+
+\begin_layout Subsection
+Typical Content Adaptation Framework 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/typical CA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Typical content adaptation framework 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ContentAdaptation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 2.1 shows the outline of content adaptation extracted from 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mohan1999,MdFudzee2008"
+
+\end_inset
+
+.
+ There are three layers in typical content adaptation system.
+ The layers are user, adaptation and content layers.
+ At the user layer, user/client requests for the content from content servers
+ via different devices.
+ The content servers are grouped at the content layer and located in many
+ places across the network.
+ At adaptation layer, original Web content is tailored to meet the contexts
+ (e.g., device’s constraints, preferences) of each targeted user determined
+ by adaptation decision.
+ This tailoring process can be performed by the adaptation mechanism(s)
+ at a single or several different locations (e.g., content servers, proxies).
+ Finally, the adapted version of the Web content is delivered to the users.
+ In content adaptation, several essential terms are defined as the following:
+\end_layout
+
+\begin_layout Standard
+Content adaptation is a term that defines the tailoring, aligning or customizing
+ content into a required version 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Arnaiz2011,Mohan1999,Timmerer2008,Tong2010"
+
+\end_inset
+
+.
+ It is performed to tailor with the adaptation contexts.
+ Context is the circumstances surrounding an entity or event 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MdFudzee2008"
+
+\end_inset
+
+.
+ This includes any information that can characterize an entity’s situation
+ or state.
+ Context is motivated by this key question: “to adapt the content to what”.
+ It could be a device, network, user/client or combination of them.
+ Client is a Web user that consumed content adaptation services to get the
+ required content version 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Md-Fudzee2011"
+
+\end_inset
+
+.
+ Clients use these services directly or through a service broker.
+ 
+\end_layout
+
+\begin_layout Standard
+In content adaptation, several essential terms are defined as the following:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Content adaptation
+\series default
+ is a term that defines the tailoring, aligning or customizing content into
+ a required version 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mohan1999"
+
+\end_inset
+
+.
+ It is performed to tailor with the adaptation contexts.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Context
+\series default
+ is the circumstances surrounding an entity or event 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MdFudzee2008"
+
+\end_inset
+
+.
+ This includes any information that can characterize an entity’s situation
+ or state.
+ Context is motivated by this key question: “to adapt the content to what”.
+ It could be a device, network, user/client or combination of them.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Client
+\series default
+ is a Web user that consumed content adaptation services to get the required
+ content version 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Md-Fudzee2011"
+
+\end_inset
+
+.
+ Clients use these services directly or through a service broker.
+ 
+\end_layout
+
+\begin_layout Subsection
+Video Granularity Level
+\end_layout
+
+\begin_layout Standard
+A granularity level of video adaptation is the 
+\begin_inset Quotes eld
+\end_inset
+
+what to adapt
+\begin_inset Quotes erd
+\end_inset
+
+ in an adaptation framework.
+ It refers to the video elements (e.g.
+ pixel, frame, shot, scene etc.) that should be adapted.
+ The video elements can be found at the spatial dimension, temporal dimension
+ and spatio-temporal dimension.
+ A video can be seen as a sequence of image frames, which convey a rich
+ semantic presentation through synchronized audio, visual and text representatio
+ns over a period of time.
+ Thus, the fundamental units of a video are single image frames (Simpson,
+ 2013) as they are atomic on the time axis.
+ In the field of multimedia analysis, the video is defined as a sequence
+ of scenes, whereas each scene consists of several sequences of shots.
+ A video scene is defined as the composition of several consecutive shots
+ taken in the same place.
+ Similarly, a video shot is a sequence of continuous frames generated during
+ a single camera operation.
+\end_layout
+
+\begin_layout Subsection
+Types of Adaptation Operation
+\end_layout
+
+\begin_layout Standard
+Adaptation operations is the manipulation technique that is executed on
+ a video element.
+ There are several categories of adaptation paradigms that evolved over
+ the last decade:
+\end_layout
+
+\begin_layout Enumerate
+Selection/Reduction
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+In resource-constrained situations, a popular adaptation approach is to
+ trade some components of the entity for saving of some resources.
+ Such schemes usually are implemented by selection and reduction of some
+ elements in a video entity like shots and frames in a video clip, pixels
+ in an image frame, bit planes in pixels, frequency components in transformed
+ representation, etc.
+ Some of these schemes are typically also considered as some forms of transcodin
+g: changing the bit rate, frame rate, or resolution of an existing coded
+ video stream.
+ Reduction involves a selection step to determine which specific components
+ should be deleted.
+ Uniform decimation sometimes is sufficient, while sophisticated methods
+ further explore the non equal importance of different components based
+ on psychophysical or high-level semantic models.
+ For example, in several video summarization systems, key events (such as
+ scoring in sports) are defined based on user preferences or domain knowledge.
+ During adaptation, such highlighted events are used to produce condensed
+ video skims.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Format Transcoding 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A basic adaptation process is to transcode video from one format to another,
+ in order to make the video compatible with the new usage environment.
+ This is not surprising when there are still many different formats prevailing
+ in different application sectors such as broadcasting, consumer electronics,
+ and Internet streaming.
+ One straightforward implementation is to concatenate the decoder of one
+ format with the encoder of the new format.
+ However, such implementations may not be feasible sometimes due to the
+ potential excessive computational complexity or quality degradation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Transformation 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The original contents are formatted using bitstream syntax descriptions
+ and facilitates scalable coding formats to enable the content adaptation
+ by performing simple truncation operations and minor update operations
+ in a coding format-independent way.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Replacement or substitution
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This class of adaptation replaces selected elements in a video entity with
+ less expensive counterparts, while aiming at preserving the overall perceived
+ utility.
+ For instance, a video sequence may be replaced with still frames (e.g., key
+ frames or representative visuals) and associated narratives to produce
+ a slide show presentation.
+ The overall bandwidth requirement can thus be dramatically reduced.
+ If bandwidth reduction is not a major concern, such adaptation methods
+ can be used to provide efficient browsing aids in which still visuals can
+ be used as visual summaries as well as efficient indexes to important points
+ in the original video.
+ Note that the replacement content does not have to be extracted from the
+ original video.
+ Representative visuals that can capture the salient information in the
+ video (e.g., landmark photos of a scene) can be used.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Synthesis
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Synthesis adaptation goes beyond the aforementioned classes by synthesizing
+ new content presentations based on analysis results.
+ The goal is to provide a more comprehensive experience or a more efficient
+ tool for navigation.
+ For example, visual mosaics (or panoramas) can be produced by motion analysis
+ and scene construction.
+ The extended view provides an enhanced experience in comprehending the
+ spatio-temporal relations of objects in a scene.
+ In addition, transmission of the synthesized stream usually requires much
+ less bandwidth than the original video sequence since redundant information
+ in the background does not have to be transmitted.
+ Another example of adaptation by synthesis is the hierarchical summary
+ of video.
+ Key frames corresponding to highlight segments in a video sequence are
+ organized in a hierarchical structure to facilitate efficient browsing.
+ The structures in the hierarchy can be based on temporal decomposition
+ or semantic
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+These adaptation are temporal, spatial or spatio-temporal according to the
+ granularity level on which they are executed.
+\end_layout
+
+\begin_layout Subsection
+Classification of Adaptation Approaches
+\end_layout
+
+\begin_layout Standard
+There are two main approaches for handling this diversity of content formats:
+ static content adaptation and dynamic content adaptation, with a number
+ of hybrids combining both approaches 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lum2002"
+
+\end_inset
+
+.
+ These two approaches differ in the time when the different variants are
+ created 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lei2001"
+
+\end_inset
+
+ to match the requested format.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Static Adaptation Approaches
+\end_layout
+
+\begin_layout Standard
+Static adaptation approaches assume the availability of several versions/variati
+ons from one form of coded representation to another.
+ For example, MPEG-2 of the same video content or even several alternative
+ content parts, which are adapted in advance to address different kinds
+ of usage constraints.
+ 
+\end_layout
+
+\begin_layout Standard
+Static adaptation is performed either by selecting the most adequate version
+ of the content, or by substituting a part of content by a pre-adapted one
+ according to the usage constraints For instance, the adaptation by selection
+ approach adopted in the InfoPyramid framework 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mohan1999"
+
+\end_inset
+
+.
+ Static adaptation approaches are advantageous for application scenarios
+ that require adaptation to specific kind of usage constraints with a reduced
+ runtime processing during the end-user request.
+ Moreover, static adaptation preserves the intellectual property rights
+ of the owner since he/she has the full control on how the content should
+ be adapted and delivered to the end-user.
+\end_layout
+
+\begin_layout Standard
+However, static adaptation has a number of disadvantages, mainly related
+ to the management and maintenance of different variants of the same content
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lum2002"
+
+\end_inset
+
+.
+ Different content formats need to be created for each sort of device or
+ class of devices, and needs to be re-done when new devices are introduces.
+ It also requires additional storage space to keep all variants of the same
+ content.
+\end_layout
+
+\begin_layout Subsubsection
+Dynamic Adaptation Approaches
+\end_layout
+
+\begin_layout Standard
+With dynamic content adaptation, the content is transcoded from one format
+ to the other only when it is requested.
+ Depending on the location where the transcoding takes place, dynamic content
+ adaptation technologies can be classified into three categories: server-based,
+ client-based, and proxy-based.
+ In the server-based approach 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mohan1999"
+
+\end_inset
+
+, the content server is responsible for performing the transcoding; the
+ content provider has all the control on how the content is transcoded and
+ presented to the user.
+ Additionally, it allows the content to be transcoded before it is encrypted,
+ making it secure against malicious attacks.
+ However, server-based adaptation does not scale properly for a large number
+ of users and requires high-end content and delivery server to handle all
+ requests.
+ As for the client-based approach, the client does the transcoding when
+ it receives the content.
+ The advantage of this approach is that the content can be adapted to match
+ exactly to the characteristics of the client.
+ However, client-based adaptation can be highly expensive in terms of bandwidth
+ and computation power, especially for small devices with small computational
+ power and slow network connectivity, with large volume of data might be
+ wastefully delivered to the device to be dropped during transcoding process.
+ The third adaptation approach is the proxy-based approach, where an intermediar
+y computational entity can carry out content adaptation on the fly, on behalf
+ of the server or client.
+ Proxy adaptation has a number of benefits including leveraging the installed
+ infrastructure and scaling properly with the number of clients.
+ It also provides a clear separation between content creation and content
+ adaptation.
+ However, some content providers may argue that they prefer to control themselve
+s how their content is presented to the user (i.e.
+ copyright).
+ Also, using proxies for adaptation does not allow the use of end-to-end
+ security solutions.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Perception-driven Adaptation Approaches.
+
+\series default
+ This approach deal with the perceptual constraints, which express specific
+ human perceptual preferences related to perception limitations raised by
+ the natural environment, visual impairments, audio impairments, etc.
+ (Joao & Fernando, 2004).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Technical-driven Adaptation Approaches.
+
+\series default
+ This approach deal with technical constraints raised by network limitations
+ and the characteristics of the end-user's terminal.
+ These approaches require information regarding the low-level features and
+ technical metadata of the video in order to be performed.
+ In the literature, the most used techniques for technical-driven adaptation
+ approaches are transcoding, transmoding and Scalable Video Coding (SVC).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Semantic-driven Adaptation Approaches
+\series default
+.
+ This approach deal with semantic constraints, which are expressed in terms
+ of concepts/keywords given by the user.
+ These approaches mainly involve the selection and reduction adaptation
+ operations along spatial, temporal and spatio-temporal dimensions.
+ Thus, information related to the structure and semantics of the video content
+ is essential to perform any type of semantic adaptation.
+\end_layout
+
+\begin_layout Subsection
+Adaptation Decision-Taking Method
+\end_layout
+
+\begin_layout Standard
+The adaptation of a video is performed in two sequential phases.
+ The first is the adaptation decision-taking phase used to decide of the
+ appropriate combinations of adaptation operations, find all the feasible
+ adaptation plans and select the best plan among the feasible ones.
+ The second is the adaptation execution phase where the selected plan is
+ executed over the video.
+ Regarding the decision-taking phase, three methods have been widely investigate
+d in the literature :
+\end_layout
+
+\begin_layout Subsubsection
+Knowledge-based Methods 
+\end_layout
+
+\begin_layout Standard
+Knowledge-based methods also referred to as multi-step adaptation methods,
+ aim to automatically construct a suitable sequence of adaptation operations,
+ for a given multimedia resource and a set of constraints related to the
+ usage environments and users preferences.
+ Multimedia content adaptation frameworks implementing knowledge-based method
+ need to have precise knowledge or information of the usage environment
+ and user preferences, in order to reason and solve the problem of generating
+ a suitable sequence of adaptation operations.
+ Generally, this problem is solved using methods and techniques from the
+ field of Artificial Intelligence (AI), such that the knowledge is represented
+ using various representation techniques rules (e.g., procedural or declarative).
+ Clearly, adaptation frameworks implementing knowledge-based methods can
+ tar- get Universal Multimedia Access (UMA), where any user (respectively
+ device) can consume any multimedia content, anytime and anywhere.
+ However, they fail to ensure Universal Multimedia Experience (UME), since
+ they cannot provide the end-user with the best Quality of Experience (QoE).
+ Indeed, if several feasible adaptation operations exist, knowledge-based
+ methods are not able to select the optimal one.
+ To this end, the Quality-based methods were introduced.
+\end_layout
+
+\begin_layout Subsubsection
+Quality-based Methods
+\end_layout
+
+\begin_layout Standard
+Quality-based methods also referred to as optimization-based methods or
+ utility-based, aim to find the optimal selection of adaptation operations
+ that satisfy the constraints of the usage environment and user preferences,
+ while maximizing the quality (i.e., utility resulting from the adaptation)
+ experienced by the end-user.
+ The Quality-based methods were implemented by several multimedia content
+ adaptation frameworks.
+ These methods operate by solving an optimization problem.
+ If the optimization problem involves more than one objective function to
+ be optimized simultaneously, the problem is called multi-objective optimization
+ or pareto optimization.
+ For instance, imagine we want to optimize both perceived quality and the
+ execution time, which are combined in the expression of a utility function.
+ Let us assume the existence of several feasible adaptation operations opi
+ and opj, whereas the perceived quality resulting from opi is greater than
+ opj, but the execution time of opj is better than opi.
+ In this case, the optimum utility can be found at one of the non-dominated
+ adaptation operations (or Pareto optimal).
+ A solution is called Pareto optimal, if none of the objective functions
+ can be improved in value without impairment in some of the other objective
+ values.
+\end_layout
+
+\begin_layout Subsubsection
+Hybrid Methods
+\end_layout
+
+\begin_layout Standard
+This method combine both knowledge-based and quality-based methods in sequence.
+ Based on the metadata description of the video, the knowledge-based method
+ decides which adaptation operations have to be carried out in order to
+ adapt the content according to the usage environment.
+ Afterwards, certain intelligent adaptation tools incorporate the capability
+ to select the parameters that optimize their output.
+ CAIN-21 is an MPEG-21 Framework in which the adaptation engine implements
+ a hybrid method.
+\end_layout
+
+\begin_layout Subsection
+Quality of Experience
+\end_layout
+
+\begin_layout Standard
+Evolution in mobile technologies is enabling more services e.g.
+ mobile videos and television programs for end user consumption.
+ It is therefore vital for operators to measure and manage their networks
+ efficiently.
+ Quality of Service (QoS) is a metric commonly used to represent the capability
+ of a network to provide performance guarantees to selected network traffic.
+ QoS focuses on temporal resource sharing (e.g.
+ interconnect or memory bandwidth and latency).
+ However, it alone is insufficient to ensure user satisfaction as it focuses
+ on low-level performance metrics.
+ A crucial measure of a network and the services it provides depends on
+ how end users perceive the performance of the application.
+ By contrast, Quality of Experience (QoE) is the term used to describe user
+ perception of quality.
+ Fulfilling all QoS parameters might not guarantee a satisfied user thus
+ we need to understand QoE in order to use QoS effectively.
+ For instance, even though the maximum bit rate is fixed by the access network,
+ a multimedia content may have been encoded at higher frame rate and lower
+ frame quality or vice versa.
+\end_layout
+
+\begin_layout Standard
+QoE-aware adaptation engine is a vital prerequisite to enable the vision
+ of UME 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pereira2003,Wu2009"
+
+\end_inset
+
+.
+ QoE represents the degree of satisfaction of the adapted video by the end
+ user.
+ Measuring and ensuring good QoE in a mobile environment is non-trivial
+ as it is very subjective in nature and includes other factors such as environme
+nts, terminals, sensations, technical quality and content types.
+ These factors make it almost impossible to measure QoE using objective
+ methods.
+ MPEG-32 DIA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burnett2006"
+
+\end_inset
+
+ has presented the concept of utility as a measurement of the QoE resulting
+ from an adaptation operation.
+ Utility can be measured at three different levels: the objective level
+ (i.e.
+ Video Quality Metric (VQM) and Peak Signal-to-Noise Ratio (PSNR)); the
+ subjective level (i.e.
+ Mean Opinion Score (MOS)); and the comprehension/semantic level (i.e.
+ measuring the amount of information assimilated by the end user).
+ For video adaptation, a metric called Utility Function (UF) has been defined
+ by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Wang2000"
+
+\end_inset
+
+ to measure the adaptation utility for UMA, and later standardized in MPEG-21
+ DIA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burnett2006"
+
+\end_inset
+
+.
+ UF describes the trade-off relationship between constraints and utilities
+ along each adaptation dimension.
+ It plays a key role in choosing the optimal adaptation among multiple options
+ that meet the usage environment constraints.
+\end_layout
+
+\begin_layout Subsection
+Quality in Video Adaptation Context
+\end_layout
+
+\begin_layout Standard
+In general, adaptation techniques cause irreversible loss of information
+ in the generated adapted content, meaning that the original content cannot
+ be restored from the adapted one.
+ This information loss may reduce the quality of the delivered video, thereby
+ minimizing the end-user's QoE.
+ In order to ensure UME, a vital prerequisite is to design QoE-aware adaptation
+ engine.
+ To do this, the most challenging part is to define efficient and reliable
+ quality metrics, which are able to quantify the video quality degradation
+ that may occur from the adaptation.
+ Indeed, the most efficient and reliable type of quality metric is the subjectiv
+e one, since it is based on scores attributed by humans who are the ultimate
+ receivers of the adapted video.
+ Nevertheless, these methods are human resource expensive, laborious and
+ time consuming.
+ Therefore, the researchers have gone to design objective metrics that can
+ predict and evaluate the quality, without human involvement and with a
+ less cost.
+ However, it is impossible to design a quality metric that covers all the
+ adaptation contexts, since the impact of the information loss on the end-user's
+ QoE depends on the type of the performed adaptation.
+ Add to that the fact that the quality experienced by the users is multi-
+ dimensional in nature and can be measured on different levels such as perceptua
+l, semantic, signal, etc.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Semantic Quality
+\end_layout
+
+\begin_layout Standard
+The semantic quality refers to the amount of conveyed information, regardless
+ of how the content is presented.
+ A high semantic quality corresponds to a high ability of the user in analyzing,
+ synthesizing and assimilating the informational content after adaptation.
+ In order to measure the semantic quality, we need to quantify the amount
+ of the semantic information lost during the adaptation compared to the
+ original content.
+ In practice, it is so difficult to come up with a general measurement of
+ the semantic quality.
+ This is due to the following reasons : 
+\end_layout
+
+\begin_layout Enumerate
+The difficulty in extracting semantic information from the content automatically.
+ This is due to the well-known problem in multimedia that is, the problem
+ of semantic gap.
+ The semantic gap is the lack of coincidence between the information that
+ one can extract from the visual data and the interpretation that the same
+ data have for a user in a given situation.
+ Thus, the semantic quality is measured based on different type of semantic
+ information, which are extracted according to the application scenario.
+ For instance, for spatial semantic adaptation of a soccer game that involves
+ cropping and scaling, the semantic quality can be measured by the amount
+ of information related to the ROIs (i.e., soccer ball and players), which
+ are maintained by the adaptation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The amount of semantic information conveyed by the content highly depends
+ on the type of the content itself.
+ For example, a news report provides different information than a soccer
+ game.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The loss of semantic information depends on the adaptation type.
+ For instance, spatial/scene summarization is performed by removing unwanted
+ objects from the frames based on user preferences.
+ If the removed object is semantically re- lated to another object in the
+ frame, then the adaptation leads to significant semantic information loss.
+ Another example is the adaptation by spatial transcoding, which sometimes
+ causes excessive spatial resolution reduction and impairs the details of
+ particular frames (e.g., for a soccer game, the ball can be hardly recognized
+ in some aerial shots.) 
+\end_layout
+
+\begin_layout Enumerate
+The semantic quality is differently experienced from a user to another.
+ It depends on the user's interest, cultural background, etc.
+ For example, let us assume the case of spatial semantic adaptation of a
+ Chinese dinner that involves frame cropping according to the actors.
+ The quality resulting from this adaptation can be acceptable for some users
+ who are interested in just seeing the actors.
+ However, if the user is interested in the Chinese cultural and the way
+ the table is set up, then the quality will be rated unacceptable.
+\end_layout
+
+\begin_layout Standard
+Therefore, the measurement of the semantic quality depends on the purpose
+ of the application scenario.
+\end_layout
+
+\begin_layout Subsubsection
+Perceptual Quality
+\end_layout
+
+\begin_layout Standard
+The perceptual quality refers to user's satisfaction in perceiving the content,
+ regardless of what information the content contains.
+ The more the distortion left by the adaptation is discernible by the human
+ visual attention, the lower is the perceptual quality.
+ It appears that the human visual system perceives spatial and temporal
+ distortions in video by performing differences in space and time.
+ Indeed, recent neurophysiological research has found that spatial information
+ and temporal information are processed separately in two visual pathways
+ (ventral and dorsal streams) in the visual cortex of the human brain.
+ Whilst perceived spatial information is the amount of spatial details (e.g.,
+ shape, size, etc.) at the frame level of the video, perceived temporal informati
+on is the amount of perceived motion in the video scene.
+ To this end, it is vital to develop perceptual quality metrics that separately
+ measure the impact of the spatial distortion and temporal distortion on
+ the perception of the end-user.
+ 
+\end_layout
+
+\begin_layout Standard
+Similar to the semantic perceived quality, it is not possible to have general
+ spatial and temporal perceptual quality metrics, which cover all adaptation
+ scenarios.
+ Depending on the type of adaptation and the video content, different parameters
+ (e.g., frame rate, bit rate, color depth, clip type, etc.) influence the perceptua
+l quality.
+ For instance, consider applying the same frame rate reduction to a news
+ report with less motion, and an action movie with a lot of motion.
+ As the motion is known to be one of the most important visual attractors,
+ thus the temporal perceived quality of the adapted news report will be
+ different than the one of the adapted action movie.
+ Perceptual quality has gain a lot of attention and brings to the development
+ of several perceptual quality metrics.
+\end_layout
+
+\begin_layout Section
+Video Adaptation Description using MPEG Standards
+\end_layout
+
+\begin_layout Standard
+Besides the design of an adaptation engine, the description of the video
+ content and context (i.e., end-user constraints, owner constraints, terminal
+ capabilities) is a mandatory step in video content adaptation framework.
+ As the interoperability among the context and content descriptions is essential
+ in adaptation frameworks to enable UME, these descriptions should be described
+ in some standard format.
+ Indeed, the availability of these standardized descriptions highly contributes
+ to the automation of the adaptation process, and alleviate the problem
+ of extensibility and concordance with existing upcoming standards.
+ The MPEG-7 and MPEG-21 standards address the issues associated with designing
+ a video adaptation framework in heterogeneous usage environments, and provide
+ a rich set of standardized descriptions and tools necessary for an interoperabl
+e adaptation framework.
+ In this section, we overview the MPEG-7 and MPEG-21 standards with an emphasize
+ on the tools that are related to the work of this thesis.
+\end_layout
+
+\begin_layout Subsection
+Overview of MPEG-7 Tools for Video Adaptation
+\end_layout
+
+\begin_layout Standard
+MPEG-7, formally named "Multimedia Content Description Interface", is an
+ ISO/ IEC standard developed by Moving Picture Expert Group (MPEG).
+ The goal of the MPEG-7 standard is to allow interoperable searching, indexing,
+ filtering, and access of multimedia content by enabling interoperability
+ among devices and applications that deal with multimedia content description.
+ Moreover, MPEG-7 aims to address as many different applications in different
+ environments as possible, which means that it needs to provide a flexible
+ and extensible framework for describing multimedia content.
+ To this end, MPEG-7 standardized a comprehensive set of description tools,
+ that are :
+\end_layout
+
+\begin_layout Enumerate
+D : represent a feature, and define the syntax and semantics of the feature
+ representation.
+ Example of a descriptor is the Dominant Color Descriptor (DCD), which describes
+ the representative colors distribution in an image or a region of interest
+ through an effective, compact and intuitive representation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+DS : specify the structure and semantics of the relationships between their
+ components, which may be both D and DS.
+ Example of possible DSs are a movie, temporally structured as scenes and
+ shots, including some textual descriptors at the scene level, and color
+ and motion descriptors at the shot level.
+\end_layout
+
+\begin_layout Enumerate
+Description Definition Language (DDL) : is a language that allows the creation
+ of new DSs and, possibly Ds.
+ It also allows the extension and modification of existing DSs.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Systems Tools : support the multiplexing of descriptions, synchronization
+ of descriptions with the associated content, coded representations (both
+ textual and binary format) for efficient storage and transmission, management
+ and protection of intellectual property, etc.
+ 
+\end_layout
+
+\begin_layout Standard
+These standardized tools provide support to a broad range of applications
+ such as broadcast media selection, multimedia editing, personalized advertising
+, and so forth.
+ It is important to note that the standard MPEG-7 does not specify how the
+ descriptions are generated or how they are consumed.
+ Only the representation format itself is specified.
+ 
+\end_layout
+
+\begin_layout Standard
+The specification of the MPEG-7 standard is divided into twelve parts, among
+ them is the Part5-Multimedia Description Schemes (MDS), which provides
+ tools that support applications requiring semantic adaptation of the video
+ content according to user's semantic constraints, and content owner's constrain
+ts.
+\end_layout
+
+\begin_layout Subsection
+Overview of MPEG-21 Digital Item Adaptation
+\end_layout
+
+\begin_layout Standard
+At the standardization level, one of the most complete standards is the
+ MPEG-21 Part 7 (Digital Item Adaptation – DIA) specification 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Timmerer2008"
+
+\end_inset
+
+.
+ It is a part of the MPEG-21 ISO/IEC standard.
+ Figure 2.2 provides an illustration of the available tools of MPEG-21 DIA
+ and its use for adaptation purposes.
+ Since decision-taking plays a vital role for adaptation, it also defines
+ descriptions that can be used for steering decision-taking.
+ The approach intended within MPEG-21 is based on the optimization problem
+ approach introduced above.
+ MPEG-21 DIA provides a set of tools in the form of XML schemas to describe
+ the characteristics and capabilities of networks, terminals and environments
+ as well as preferences of users.
+ It also provides the definition of the operations that can be performed
+ upon the content and the result that can be expected.
+ XML-based metadata is used to define the optimization problem which actually
+ incorporates the adaptation logic.
+ The metadata itself can be interpreted by a component that determines the
+ adaptation decision by solving the optimization problem.
+ The advantage of this metadata-driven approach is that the adaptation decision-
+taking engine (ADTE) can remain generic since the logic is defined by the
+ metadata.
+ It should be pointed out that the MPEG-21 standard only defines the syntax
+ and semantics of the descriptions, but does not cover the algorithms that
+ have to be used for solving the optimization problem.
+ The MPEG-21 description formats for optimization-based adaptation decision-taki
+ng are Adaptation QoS (AQoS), Usage Environment Description (UED) and Universal
+ Constraint Description (UCD).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/MPEG21 DIA.png
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Adaptation within MPEG-21 DIA 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Adaptation QoS (AQoS)
+\end_layout
+
+\begin_layout Standard
+Adaptation QoS (AQoS) provides a way for expressing the adaptation capabilities
+ of the multimedia content and the resulting content properties.
+ It can be used for the first two modeling steps which include the definition
+ of variables and their interrelationships.
+ In MPEG-21 DIA terminology, variables are called IOPins.
+ An IOPin has a unique name and can hold a value which must be contained
+ in the variable’s domain.
+ IOPins can either be discrete or continuous.
+ For defining the relationships between the IOPins, the standard offers
+ three different mechanisms.
+ Discrete functions can be defined by either a look-up table or a utility
+ function.
+ Although they are quite similar, the main difference is that utility functions
+ are more suitable for specifying sparse functions, which means that the
+ function value is defined only for a subset of input parameter value combinatio
+ns.
+ Relationships between continuous IOPins can be expressed by stack functions
+ which represent algebraic expressions.
+ The name stack function is based on the fact that the expressions are in
+ postfix notation (Reverse Polish Notation), which can be evaluated easily
+ by using a stack.
+\end_layout
+
+\begin_layout Subsubsection
+Usage Environment Description (UED) Tools
+\end_layout
+
+\begin_layout Standard
+The Usage Environment Description (UED) specifies a normative way to describe
+ a variety of properties related to the user and his/her usage context,
+ thus supporting the vision of UMA.
+ UEDs cover four major aspects which are relevant for adaptation decision-taking
+, namely: 
+\end_layout
+
+\begin_layout Enumerate
+the user characteristics, which enable the exact description of the user
+ with his/her preferences and impairments; 
+\end_layout
+
+\begin_layout Enumerate
+the terminal capabilities, that can be utilized for describing capabilities
+ and limitations related to the user's end device; 
+\end_layout
+
+\begin_layout Enumerate
+the network characteristics, which are imported when considering adaptations
+ of streamed multimedia resources; and 
+\end_layout
+
+\begin_layout Enumerate
+the natural environment characteristics, which can be used to further define
+ the surrounding area of the user that consumes multimedia content.
+ 
+\end_layout
+
+\begin_layout Standard
+The characteristics defined in a UED, e.g., the resolution of the terminal’s
+ screen or the available network bandwidth in bps, can be referenced when
+ defining constraints that limit the values of the IOPins.
+\end_layout
+
+\begin_layout Subsubsection
+Universal Constraints Description (UCD) Tools
+\end_layout
+
+\begin_layout Standard
+The Universal Constraints Description (UCD) defines the syntax and semantics
+ for declaring additional constraints for the adaptation and can be seen
+ as the linking element between the Adaptation QoS and the Usage Environment
+ Description.
+ On the one hand it can be used to restrict the values of IOPins based on
+ metadata from the UED.
+ This restriction is achieved by stating the constraints as mathematical
+ functions called limit constraint in MPEG-21 DIA terminology.
+ On the other hand it introduces optimization constraints that allow defining
+ preferences concerning the adaptation operations.
+ Optimization constraints are basically the objective functions of the optimizat
+ion problem.
+ 
+\end_layout
+
+\begin_layout Standard
+Based on these three types of descriptions, the ADTE can extract the optimizatio
+n problem and determine the adaptation decision by solving the optimization
+ problem.
+ However, one of the drawbacks of the MPEG-21 approach is that it does not
+ specify a dedicated algorithm for the solution of such problems.
+ As the optimization problems that can be constructed by using this metadata
+ falls into a very generic class of optimization problems, there exists
+ no optimization algorithm that is complete.
+ An algorithm is complete, if it finds a solution if one exists and otherwise
+ correctly reports that no solution is possible.
+ This problem can be leveraged by considering only discrete variables.
+ In that case there exist a finite number of combinations that can be explored
+ by an exhaustive search in the problem space.
+ Although the problem space increases exponentially with the number of variables
+, the number of variable combinations to investigate for adaptation decisions
+ is typically on the order of some hundreds to a few thousands.
+ Another disadvantage of the MPEG-21 DIA approach is that codec selection
+ problems (e.g., select one of the codecs supported by the user’s end device)
+ cannot be modeled appropriately.
+\end_layout
+
+\begin_layout Subsection
+Required Elements for Content Adaptation
+\end_layout
+
+\begin_layout Standard
+The flexibility of any system to provide content personalization depends
+ mainly on the amount of information available on a number of aspects involved
+ in the delivery of the content to the user.
+ The more information about these aspects is made available to the system,
+ the more the content can be delivered in a format that is highly satisfactory
+ to the user (higher frame rate, better resolution, better audio quality,
+ etc.).
+ These relevant aspects are: user preferences, media content profile, network
+ profile, context profile, device profile, and the profile of intermediaries
+ (i.e.
+ proxies) along the path of content delivery.
+\end_layout
+
+\begin_layout Subsubsection
+User profile
+\end_layout
+
+\begin_layout Standard
+The user's profile captures the personal properties and preferences of the
+ user, such as the preferred audio and video receiving/sending qualities.
+ Other preferences can also be related to the quality of each media types
+ for communication with a particular person or group of persons.
+ For instance, a customer service representative should be able to specify
+ in his profile his/her preference to use high-resolution video and CD audio
+ quality when talking to a client, and to use telephony quality audio and
+ low-resolution video when communicating with a colleague at work.
+ The user's profile may also hold the user's policies for application adaptation
+s, such as the preference of the user to drop the audio quality of a sport-clip
+ before degrading the video quality when resources are limited.
+ Some other information in the user profile might also include the user's
+ authorization, authentication and accounting information.
+\end_layout
+
+\begin_layout Standard
+One of the most notable work on user profiles is the MPEG-21 standard 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burnett2006"
+
+\end_inset
+
+, which describes attributes of the end user of multimedia content, including
+ besides name and contact information, also content preferences, presentation
+ preferences, accessibility and mobility preferences.
+ These preferences are used for instance to provide effective and efficient
+ access (search, filtering and browsing) to multimedia content.
+ Appendix A shows the sample schema for the user profile.
+ This schema can be added as an extension of the MPEG-21 standard.
+\end_layout
+
+\begin_layout Subsubsection
+Content Profile
+\end_layout
+
+\begin_layout Standard
+Multimedia content might enclose different media types, such as audio, video,
+ text, and image where each type can have different formats.
+ Each type and format has a number of characteristics and parameters that
+ can be used to describe the media.
+ Such information, referred to as metadata information, is usually included
+ in the content profile.
+ Some of this metadata about the content may include:
+\end_layout
+
+\begin_layout Enumerate
+Information about the storage features of the content, such as the type
+ of media (video, audio, image, etc.), the transport protocol (RTP/UDP/IP,
+ H.320, etc.), and the format (H.264 video, MP4 video, etc.).
+\end_layout
+
+\begin_layout Enumerate
+Information about available variants of the contents, such as coloured and
+ black-and-white variants.
+\end_layout
+
+\begin_layout Enumerate
+Information about the author and production of the content, such as the
+ title, and date of creation.
+\end_layout
+
+\begin_layout Enumerate
+Information related to the usage of the content, such as copyright, application
+ adaptations, and usage history.
+\end_layout
+
+\begin_layout Standard
+The MPEG-7 standard formally named 
+\begin_inset Quotes eld
+\end_inset
+
+Multimedia Content Description Interface
+\begin_inset Quotes erd
+\end_inset
+
+, offers a comprehensive set of standardized description tools to describe
+ multimedia content.
+ These tools allow for a complete description of what is depicted in the
+ content, the form (coding format and size), the condition for accessing
+ the material, the classification, the context, and the links to other relevant
+ material.
+ MPEG-7 also provides tools for describing variations of the content such
+ as summaries and abstracts; scaled, compressed and low-resolution versions
+ with different languages and modalities - audio, video, image, text, and
+ so forth.
+ Using the content profile, a content adaptation system can decide what
+ type of adaptations can be applied to the content.
+\end_layout
+
+\begin_layout Subsubsection
+Context Profile
+\end_layout
+
+\begin_layout Standard
+The concept of context and its significance has been a topic of study by
+ a number of research (Lum et al., 2000, Yang et al., 2010, Andrade et al.,
+ 2007) and is still attracting more interest.
+ The context can be generally defined as 
+\begin_inset Quotes eld
+\end_inset
+
+any information that can be used to characterize the situation of an entity.
+ An entity is a person, place or object that is considered relevant to the
+ interaction between a user and an application, including the user and the
+ application themselves
+\begin_inset Quotes erd
+\end_inset
+
+ (Abowd et al., 1999).
+ Based on this definition, a context profile would include any dynamic informati
+on that is part of the context or current status of the user.
+ Context information may include physical (e.g.
+ location, weather, temperature), social (e.g.
+ sitting for dinner), or organizational information (e.g.
+ acting senior manager).
+ Some context information, such as the role or task of the user, can be
+ manually keyed in by the user, while other information, such as location,
+ time of the day, weather condition, can be easily gathered from other sources
+ such as the calendar of the user or from a meeting attendees list.
+ The MPEG-21 standard includes tools for describing the natural environment
+ characteristics of the user, including location and time, as well as the
+ audio and illumination characteristics of the user's environment.
+ Resources adaptation engines can use these elements to deliver the best
+ experience to the user.
+\end_layout
+
+\begin_layout Subsubsection
+Device Profile
+\end_layout
+
+\begin_layout Standard
+To ensure that a requested content is properly rendered on the user's device,
+ it is essential to include the capabilities and characteristics of the
+ device into the content personalization process.
+ Information about the rendering device may include the hardware characteristics
+ of the device, such as the device type, processor speed, processor load,
+ screen resolution, colour depth, available memory, number of speakers,
+ the display size, and the input and output capabilities.
+ The software characteristics such as the operating system (vendor and version),
+ audio and video codecs supported by the device should also be included
+ in the device profile.
+ The User Agent Profile (UAProf) created by the WAP Forum (WAP, 2015) and
+ the MPEG-21 standard (MPEG, 2015), both include description tools for describin
+g device capabilities.
+\end_layout
+
+\begin_layout Subsubsection
+Network Profile
+\end_layout
+
+\begin_layout Standard
+Streaming multimedia content over a network poses a number of technical
+ challenges due to the strict QoS requirements of multimedia contents, such
+ as low delay, low jitter, and high throughput (Ng et al., 2001).
+ Failing to meet these requirements may lead to a bad experience of the
+ user (Katchabaw et al., 1998, Poellabauer et al., 2002).
+ With a large variety of wired and wireless network connectivity, it is
+ necessary to include the network characteristics into content personalization
+ and to dynamically adapt the multimedia content to the fluctuating network
+ resources (Wu et al., 2001).
+ Achieving this requires collecting information about the available resources
+ in the network, such as the maximum delay, error rate, and available throughput
+ on every link over the content delivery path.
+ A description tool for network capabilities, including utilization, delay
+ and error characteristics are included in the MPEG-21 standard.
+\end_layout
+
+\begin_layout Subsubsection
+Intermediaries Profile
+\end_layout
+
+\begin_layout Standard
+When the content is delivered to the users across the network, it usually
+ travels over a number of intermediaries.
+ These intermediaries have been traditionally used to apply some added-value
+ services, including on-the-fly content adaptation services (Chandra et
+ al., 2000).
+ Using intermediaries for applying adaptations alleviates the problem of
+ clients with limited resources (Hollfelder et al., 1997) and overloaded
+ servers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mohan1999"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For the purpose of content adaptation, the profile of an intermediaries
+ would usually include a description of all the adaptation services that
+ an intermediary can provide.
+ These services can be described using any service description language
+ such as JINI, SLP or WDSL.
+ A description of an adaptation service would include, for instance, the
+ possible input and output format to the service, the required processing
+ and computation power of the service, and maybe the cost for using the
+ service.
+ The intermediary profile would also include information about the available
+ resources at the intermediary (such as CPU cycles, memory) to carry out
+ the services.
+ Note that the available bandwidth through an intermediary can also be included
+ in the intermediary profile.
+\end_layout
+
+\begin_layout Section
+Existing Video Adaptation Frameworks
+\end_layout
+
+\begin_layout Standard
+This section reviews video adaptation methods and some related techniques
+ of adaptation.
+\end_layout
+
+\begin_layout Subsubsection
+Traditional video adaptation 
+\end_layout
+
+\begin_layout Standard
+The early study was mostly concerned with network condition for multimedia
+ streaming service.
+ In order to adapt video files for fluctuating network conditions, the network
+ transmission mechanisms (Naghshineh et al.
+ 1997; Wang et al., 1996) dynamically adapt video sequence by flexibly dropping
+ portions of elements in a video file, such as enhancement layers, and frames,
+ etc.
+ To make the video scalable for layers or frames dropping, several encoding
+ schemes have been proposed, such as video coding with fine granularity
+ scalability (FGS) (Li, 2001), multiple description coding (MDC) (Goyal,
+ 2001), wavelet-based scalable coding (Shen & Delp, 1999), etc.
+ Previous studies focus on how to estimate network quality of services (QoS)
+ and achieve good video quality with limited network resources.
+\end_layout
+
+\begin_layout Standard
+Nowadays, the structure of network is changing from homogeneous to heterogeneous
+ structure.
+ Different network architectures have different capabilities in transmission.
+ Normally, there are two major approaches for dealing with multimedia services
+ via complex heterogeneous network (Gecsei, 1997).
+ The first one is adaptive transmission which enforces traditional guaranteed
+ network resource allocation and is tolerant to inevitable fluctuations
+ from various environments.
+ The problem of maximizing overall quality in adaptive multimedia system
+ has been abstracted to Utility Model (Khan et al., 1997) to incorporate
+ the dynamics in heterogeneous network environment.
+ Some utility-based adaptation schemes (Kim et al, 2003; Wang et al., 2000;
+ Park et al.
+ 2001; Wang et al., 2007) have been proposed to optimize the quality of multimedi
+a service with network constraints.
+\end_layout
+
+\begin_layout Standard
+The various capabilities of terminal devices at the end of a network increase
+ the complexity of multimedia services.
+ Some studies (Yuan et al., 2003; Metso et al., 2001; Cheng et al., 2007) focus
+ on how to do adaptation concerning limited resource on terminal devices,
+ such as energy, screen size, and presentation capability, etc.
+\end_layout
+
+\begin_layout Standard
+At the same time, the set of emerging rich media formats to be delivered
+ is growing fast.
+ People do not want to bother building specialized adaptation mechanism
+ for every upcoming format.
+ An alternative way to adapt multimedia files between different container
+ formats is transcoding (Han et al., 1998; Garcia et al., 2010).
+ In (Metso et al., 2001), semantic knowledge about context is used to guide
+ physical adaptation: conversion, scaling and distillation.
+ To handle the bandwidth degradation, some method tries to drop shot or
+ frames in video sequence (Fung, 2002).
+ Instead of dropping shots completely, some methods retain the keyframes
+ of a shot (Chang et al., 2001).
+ Pixels and coefficients are dropped at frame level in (Benyaminovich et
+ al., 2005).
+ However, the objectives of the adaptation process to save bandwidth utilization
+ cannot satisfy users' requests.
+ Recently, user-specified adaptation has been addressed in literature (Cotroneo
+ et al., 2005; Hicks et al., 2003).
+ These study focus on adapting low-level features such as, color depth where
+ users might pay more attention to semantic aspects than low-level features.
+ Semantic video adaptation attracts ever-increasing research efforts (Pereira
+ et al., 2005; Bertini et al., 2006; Huang et al., 2010).
+\end_layout
+
+\begin_layout Subsubsection
+Meta-data-based video adaptation 
+\end_layout
+
+\begin_layout Standard
+As the size of the database increases, the traditional data adaptation technique
+s become insufficient for exploring large amounts of data and finding the
+ desired content.
+ Recently, meta-data based video adaptation attracts more and more research
+ efforts.
+ Before the raw video data can be used to issue queries they must be indexed
+ by content and their indices must be stored as meta-data.
+ Metadata is used to facilitate the understanding, characteristics, and
+ management usage of data.
+ The metadata required for effective data management varies with the type
+ of data and context of use.
+\end_layout
+
+\begin_layout Standard
+MPEG-7 defined both syntactic and semantic decompositions to describe syntactic
+ and semantic content in parallel (Hunter, 2001; Avaro et al., 2001).
+ Hunter (2001) gave an overview of the MPEG-7 description definition language.
+ Besides objectives and specification of MPEG-7 systems, new challenges
+ were discussed by Avaro et al.
+ (2001), such as the delivery of descriptions either separate or jointly
+ with the audio-visual content, and the like.
+ Recently, media adaptation was achieved by using MPEG-21 digital item adaptatio
+n framework (Nam et al., 2005; Xu et al., 2006).
+ Nam et al.
+ (2005) tailored visual content within the MPEG-21 digital item adaptation
+ (DIA) framework to meet users' visual perception characteristics .
+ Xu et al.
+ (2006), proposed content on demand method adapted the video with MPEG-21
+ DIA framework to satisfy users' preference in video content.
+\end_layout
+
+\begin_layout Subsubsection
+Personalized video adaptation 
+\end_layout
+
+\begin_layout Standard
+Personalization is on tailoring a multimedia system to the personal details
+ or characteristics of a user.
+ Due to the difference of users' device, network conditions, and especially
+ their personal preference on video content, adaptation systems need personalize
+d multimedia access aiming at enhancing the multimedia retrieval process
+ by complementing explicit user requests with various user's environments
+ (Acharya et al., 2000; Harroud et al, 2003; Lee et al., 2004).
+ Meanwhile, user preference on video content is vital for achieving personalized
+ video adaptation.
+ Bertini et al.
+ (2006) and Xu et al.
+ (2006), performed video adaptation by considering video content and user
+ preferences.
+ Most recently, related research focus on adaptation for heterogeneous mobile
+ display devices.
+ Yin et al.
+ (2011), propose a semantic image adaptation scheme to provide mobile users
+ with the most desired image content by integrating the content semantic
+ importance with user preferences under limited mobile display constraints.
+ Yin et al.
+ (2011a), attempt to examine several relevant recent developments in ubiquitous
+ media services, especially in the area of content recommendation and user
+ centric content adaptation.
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+In this chapter, we have presented a literature on existing energy-aware
+ content adaptation systems.
+ After analyzing the content adaptation research landscape, we have discussed
+ issues in energy-aware content adaptation systems and developed a taxonomy
+ based on three issues: design themes, content adaptation strategies and
+ implementation components.
+ This provides an in-depth analysis and complete understanding of the energy-awa
+re content adaptation and to validate the applicability of the proposed
+ solution.
+ 
+\end_layout
+
+\begin_layout Chapter
+Research Method
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Motivation 
+\end_layout
+
+\begin_layout Standard
+Recently, smartphones become an important tool in our daily lives.
+ It is used not only as communication device, but in many daily activities
+ such as personal organizer, web browsing and entertainment.
+ The growth of its capabilities was amazingly fast.
+ However, when smartphones are now expected to continually become lighter
+ and slimmer, its battery technology is not at par with the growth of other
+ capabilities.
+ When combined with power-hungry multimedia applications such as streaming
+ video players and 3D games, the limited battery capacity motivates smartphone
+ energy awareness and energy optimization research.
+ Due to heterogeneous nature of smartphones, these mobile devices are differ
+ in system software (what file format can they display), screen size (how
+ the media content appearing), as well as battery (how long the media content
+ can be played).
+ Another factor is the connection to the Internet: they also varied in term
+ of bandwidth, jitter, and reliability.
+ Furthermore, the web content is also varied (modality, format, quality
+ and size).
+ Even the user also has different preferences while consuming multimedia
+ content (Quality of Experience).
+ Therefore, content adaptation is required to fit the media content to these
+ heterogeneity contexts.
+ This chapter discusses the proposed framework which is used to develop
+ a multi-objective energy-aware content adaptation system.
+ The research method used in the study will also discussed.
+\end_layout
+
+\begin_layout Standard
+This research mostly focuses on battery life estimation dan energy saving,
+ whereas we focus on understanding how much streaming video uses energy
+ and how content adaptation would be able to enhance quality of experience
+ in term of the availability of energy to play the whole content.
+ Although many recent content adaptation approaches, only few concentrating
+ on the energy consumption issues where the ability to manage limited mobile
+ device energy resources to support Universal Multimedia Experience (UME)
+ efficiently
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pereira2003,Arnaiz2011,Lopez2011,El-Khoury2012"
+
+\end_inset
+
+.
+ Thus, we need a mechanism that is, on the one hand, able to satisfy and
+ negotiate users QoE and is, on the other hand, optimize mobile device energy
+ consumption.
+\end_layout
+
+\begin_layout Section
+Methodology
+\end_layout
+
+\begin_layout Standard
+To demonstrate proof-of-concept and proof-of-performance, several important
+ phase were performed in this study.
+ The methodology is depicted in Figure 3.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/methodology.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Video adaptation methodology
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Phase 1: define adaptation requirements
+\end_layout
+
+\begin_layout Standard
+This phase involves defining all possible adaptation solutions, the usage
+ environment conditions of the user, their device, the network, the natural
+ environment and the service level agreement which one or more of these
+ adaptation solutions will be applied.
+ Any thresholds below the agreed level in the SLA will trigger negotiation
+ mechanism in the SLA.
+ This framework uses MPEG-21 to describe all these in different XML files.
+ First, it uses AQoS tool to describe each adaptation solution in a separate
+ XML file.
+ Then it uses MPEG-21's UED tool to describe the usage environment in a
+ single XML file.
+ Then, it uses MPEG-21's UCD tool to describe any constraints as limit (e.g.
+ minimum resolution, remaining battery) and optimization objectives (e.g.
+ number of colours) in a single XML file.
+ Finally, it uses the proposed Adaptation Quality of Service (AQoS) mechanism
+ to describe any user preferences as agreed in SLA in a single XML file.
+\end_layout
+
+\begin_layout Subsection
+Phase 2: generate adaptation solutions
+\end_layout
+
+\begin_layout Standard
+This phase involves using the adaptation solutions defined in phase 1 to
+ generate additional adaptation solutions until a sufficient number is found
+ that satisfies the limit constraints defined in phase 1.
+ The framework uses greedy algorithm to generate the pool of adaptation
+ solutions that satisfy the thresholds set in phase 1.
+ First, it encodes adaptation solutions from those defined in phase 1 as
+ nodes.
+ Then, it generates additional adaptation solutions from UED as nodes.
+ Finally, it extract those nodes that satisfy the limit constraints set
+ in phase 1.
+\end_layout
+
+\begin_layout Subsection
+Phase 3: extract optimal adaptation solutions
+\end_layout
+
+\begin_layout Standard
+This phase involves identifying adaptation solutions from those generated
+ in phase 2 that satisfy both the limit and optimization constraints defined
+ in phase 1.
+ The framework assign weights to individual objectives for solution evaluation.
+\end_layout
+
+\begin_layout Subsection
+Phase 4: adapt video
+\end_layout
+
+\begin_layout Standard
+This phase involves adapting the original video using the adaptation instruction
+s included in the solution selected from the optimal solutions extracted
+ in phase 3.
+ The framework uses FFmpeg software to transcode the video.
+ FFmpeg is a complete, cross-platform solution to record, convert and stream
+ audio and video.
+ The framework parses the adaptation solution as instructions to FFmpeg
+ video processing commands (e.g.
+ reduce resolution and transcode format) and then it applies these commands
+ on the original video.
+ The adapted video is conveyed to the user for consumption.
+\end_layout
+
+\begin_layout Subsection
+Phase 5: update usage history
+\end_layout
+
+\begin_layout Standard
+This phase involves recording all adaptation files in the usage history
+ for future consideration.
+ The framework uses MPEG-21 to update the usage history.
+ In particular, it records the XML files of UED, UCD and AQoS as well as
+ the XML version of the optimal adaptation solution used in phase 4 to adapt
+ the video.
+ This phase also calculate any cost that may incur between the content provider
+ and the users.
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+In this chapter we proposed a comprehensive energy-aware content adaptation
+ framework.
+ We present a content adaptation framework for optimizing Quality of Experience
+ and energy consumption as well as different network environment and user
+ devices in an interoperable and efficient way.
+ This framework uses the MPEG-21 standard to ensure interoperable solution.
+ The components of the proposed framework were discussed accordingly.
+ The proposed ADTE will enhance decision-making process by considering user
+ satisfaction in term of Quality of Experience as well as device energy
+ consumption.
+ The decision-making process also supported by the SLA mechanism to ensure
+ agreeable decision thus increase satisfaction.
+ The SLA is needed in the adaptation decision-taking process because there
+ is a possibility that no adaptation solution that can meet with user QoE
+ preferences and/or sufficient available energy to view the content.
+ Therefore the system may negotiate with the user to proceed with content
+ adaptation.
+ 
+\end_layout
+
+\begin_layout Chapter
+Analysis and Design
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Although wireless video communications is highly desirable in many applications,
+ wireless video communication presents some unique challenges.
+ Due to shadowing and multi-path effect, the channel gain varies over time,
+ which makes the reliable signaling difficult.
+ On the other hand, a major limitation in any wireless system is the fact
+ that mobile devices typically depend on a battery with a limited energy
+ supply.
+ Such limitation is especially of concern because of the high energy consumption
+ rate in encoding and transmitting video bit streams.
+ When combined with power-hungry multimedia applications such as streaming
+ video players and 3D games, the limited battery capacity motivates smartphone
+ energy awareness and energy optimization research.
+ In the mobile app market, mobile video streaming apps (e.g., YouTube, Netflix,
+ YouKu) is among the most popular ones.
+ Mobile video traffic has exceeded half of all mobile data traffic in 2011
+ and it is expected that by 2017, video traffic will be increased into more
+ than 30 percent of the world’s mobile data traffic 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cisco2015"
+
+\end_inset
+
+.
+ In this section, we measure energy consumption of different video streaming
+ encoding as well as under different network conditions.
+ We prepare several tests-bed to examine how different mobile streaming
+ video encoding apps react to various network scenarios.
+ We measure the corresponding energy consumption under each scenario using
+ a dedicated software that can directly access smartphone hardware.
+ 
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+This study builds on and contributes to work on energy-aware content adaptation,
+ as it is becoming important in the emerging mobile and pervasive computing.
+ In this paper, we present an experiment to assess smartphone battery consumptio
+n while playing streaming video.
+ In the experiment, we use three sets of video with different encoding parameter
+s such as video resolution, video frame rate and video bit rate.
+ We test all of the video set in 2 different WiFi network scenario as well
+ as 2 different 4G/LTE network scenario.
+ The results have shown that decreasing the video frame rate leads to the
+ highest energy savings among the three encoding parameters that been considered.
+ Better network connection also leads to more energy savings.
+ 
+\end_layout
+
+\begin_layout Chapter
+Implementation and Result
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The growing interest of consumers in the acquisition of and access to visual
+ information has created a demand for new technologies to view multimedia
+ data.
+ Traditionally, Content Adaptation techniques have been used to adapt multimedia
+ content based on the resource constraints of mobile devices.
+ Limited battery power is one big restricting factor in mobile video streaming.
+ Online multimedia content when accessed over the mobile network quickly
+ drains battery power as result of huge data transfer.
+ Many techniques have been proposed to achieve mobile battery efficiency
+ for multimedia applications.
+ Existing battery efficient multimedia adaptation techniques offer trade-off
+ between user experience and battery life.
+ These techniques tend to degrade quality in order to extend the battery
+ life.
+ These methods lower encoding parameters like frame rate, bitrates, colours
+ and resolution.
+ This chapter argue that efficacy of video streaming is dependent on the
+ quality and modality.
+ We propose a novel power saving video streaming adaptation approach.
+ This approach ensures optimum battery efficiency while keeping the multimedia
+ information effective.
+\end_layout
+
+\begin_layout Section
+Streaming Video Energy Usage
+\end_layout
+
+\begin_layout Standard
+Before running any test, we measure the baseline energy consumption where
+ no application running, known as idle state.
+ Using Trepn application, the energy is consumed at 154 mWh.
+ We also measure energy consumption of display backlight.
+ Figure 4.3 shows display energy consumption over the range of available
+ brightness levels (1 to 255).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/backlight.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Power consumption of display backlight
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The results of the video encoding test are presented in Figure 4.4, 4.5, 4.6,
+ 4.7, 4.8 and 4.9.
+ These figures present the average power consumption of the mobile device
+ for each test scenario.
+ Additionally, the figures present the power saving achieved by decreasing
+ the resolution, frame rate or bit rate, computed as the percentage relative
+ to the highest value for each test video set.
+ 
+\end_layout
+
+\begin_layout Subsection
+Video Resolution Test
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidRes.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Video resolution average energy consumption
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 4.4 shows that the smartphone’s energy consumption decreases with
+ the video resolution decrease.
+ This is due to the decoding process for high-resolution video requires
+ significant energy.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidResSave.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energy savings of different video resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 4.5 show The highest energy saving of 35% for this test is achieved
+ when changing the video resolution from Full HD 1920×1080 pixels to 480×320
+ pixels.
+ 
+\end_layout
+
+\begin_layout Subsection
+Video Frame Rate Test
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidFr.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Video frame rate average energy consumption
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 4.6 shows frame rate change contributes the largest difference in
+ energy consumption.
+ This happens because fast frame rate increases extra workload placed to
+ the CPU, thus increase system energy consumption.
+ For example, reducing the frame rate from 30 fps to 4 fps, reduced the
+ smartphone’s power consumption by up to 40% as shown in Figure 4.7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidFrSave.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energy savings of different video frame rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Video Bit Rate Test
+\end_layout
+
+\begin_layout Standard
+The results presented in Figure 4.8 show that the smartphone’s energy consumption
+ also decreases with the video bit rate decrease, although not as much as
+ in the case of frame rate and resolution decrease.
+ The highest power saving of 31% for this video encoding parameter is achieved
+ when changing the video bit rate from 1500 kbps to 300 kbps as shown in
+ Figure 4.9.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidBr.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Video bit rate average energy consumption
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/vidBrSave.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energy savings of different video bit rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Chapter
+Conclusion and Future Work
+\end_layout
+
+\begin_layout Section
+Research Outcomes
+\end_layout
+
+\begin_layout Standard
+The purpose of this thesis is to develop solutions to enable content adaptation
+ as a mechanism to manage energy resources of mobile device efficiently
+ and at the same time optimize quality of experience while consuming streaming
+ video.
+ To achieve this aim, a framework of multi objectives adaptation decision-taking
+ has been introduced.
+ Also, we developed selective mechanism to enable adaptation at deeper level
+ of video structure based on energy estimation model.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Devices, standards and software develop rapidly, but still often independently
+ of each other.
+ Moreover, the current amount of digital content available online is about
+ 487 billion gigabytes (GB) and is expected to increase rapidly 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cisco2015"
+
+\end_inset
+
+.
+ To tailor the rich content suitable for a wide range of devices with varied
+ user preferences connected to a variety of networks, content adaptation
+ is necessary.
+\end_layout
+
+\begin_layout Standard
+Many of the existing content adaptation systems available in the literature
+ tend to be either focusing on user QoE preferences or focusing on energy
+ efficiency.
+ To increase user QoE, there is need to trade off energy efficiency vice
+ versa.
+ In the thesis, the approach for the management of content adaptation solution
+ to balance energy consumption and user QoE shows significance.
+ In this context, we have identified the fundamental research issues to
+ address the energy efficiency of streaming video on mobile device as well
+ as optimizing user QoE.
+ We set forth our goals to address these key issues.
+\end_layout
+
+\begin_layout Section
+Future Works
+\end_layout
+
+\begin_layout Standard
+We list some potential area in relation to energy efficient content adaptation.
+\end_layout
+
+\begin_layout Subsection
+High-level Selection Approach
+\end_layout
+
+\begin_layout Standard
+Scene adaptation based on user preferences.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "thesis_ref"
+options "apa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+MPEG-21 DIA
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+endmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
